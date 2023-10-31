@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Ideone
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        
+        PriorityQueue<Integer> heap = new PriorityQueue<Integer>();
+        heap.add(11);
+        heap.add(2);
+        heap.add(10);
+        heap.add(7);
+        heap.add(3);
+        heap.add(8);
+        System.out.println("size of heap : " + heap.size());
+        System.out.println("min in heap : " +heap.peek());
+        heap.poll();
+        System.out.println("after deletion");
+        System.out.println("size of heap : " + heap.size());
+        System.out.println("min in heap : " +heap.peek());
+    }
+}
